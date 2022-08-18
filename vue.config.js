@@ -4,6 +4,7 @@ module.exports = defineConfig({
 })
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
-    filenameHashing: false,
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/minecraft-project/'
+    : '/'
 }
