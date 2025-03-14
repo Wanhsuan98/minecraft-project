@@ -1,5 +1,5 @@
 <template>
-    <!-- Modal -->
+  <!-- Modal -->
   <div
     class="modal fade"
     id="staticBackdrop"
@@ -23,11 +23,10 @@
         <div class="modal-body d-flex">
           <div class="container">
             <div class="text-center">
-            
-                <input :id="text.id" type="text" :value="text.title"/>
+              <input :id="text.id" type="text" :value="text.title" />
             </div>
             <div class="text-center">
-             <input :id="text.id" type="text" :value="text.text"/>
+              <input :id="text.id" type="text" :value="text.text" />
             </div>
           </div>
         </div>
@@ -58,6 +57,4 @@ export default {
 };
 </script>
 
-<style>
-
-</style>
+<style></style>

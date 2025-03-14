@@ -1,15 +1,15 @@
 <template>
-
   <div class="col-8 col-md-8 tab">
     <input class="tabcheck" type="checkbox" name="tabs" />
-    <label >111</label>
+    <label>111</label>
     <div class="tab-content">
-      <p>222} </p>
+      <p>222}</p>
       <button
         type="button"
         class="btn"
         data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop">
+        data-bs-target="#staticBackdrop"
+      >
         更新
       </button>
       <button>刪除</button>
@@ -40,11 +40,10 @@
         <div class="modal-body d-flex">
           <div class="container">
             <div class="text-center">
-            
-                <input type="text"/>
+              <input type="text" />
             </div>
             <div class="text-center">
-             <input type="text"/>
+              <input type="text" />
             </div>
           </div>
         </div>
