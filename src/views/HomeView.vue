@@ -1,12 +1,9 @@
 <template>
   <div class="">
-  <frontpage/>
+    <frontpage />
   </div>
 </template>
-<style>
-
-</style>
+<style></style>
 <script setup>
 import frontpage from "../components/FrontPage.vue";
-
 </script>
